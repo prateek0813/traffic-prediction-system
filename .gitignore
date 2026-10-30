@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets and local databases
+.env
+backend/.env
+*.db
+*.sqlite
+*.sqlite3
+
+# Model artifacts and generated build output
+*.joblib
+*.pkl
+frontend/node_modules/
+frontend/dist/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.venv/
+node_modules/
+.env
+__pycache__/
+*.pyc
+*.db
